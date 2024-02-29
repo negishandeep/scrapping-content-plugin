@@ -1,0 +1,43 @@
+.news_input_row  label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.news_input_row label span {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.news_input_row textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    min-height: 180px;
+}
+
+.news_input_row input[type="submit"] {
+    background: #005a87;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #005a87;
+}
+
+.news_input_row input[type="submit"]:hover {
+    border: 2px solid #005a87;
+    background: #0000002e;
+    color: #000;
+}
+
+.news_input_row input[type="text"] {
+    width: 100%;
+    max-width: 370px;
+}
+
+.news_input_row {
+    margin: 10px 0;
+}

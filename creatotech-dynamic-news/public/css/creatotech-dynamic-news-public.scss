@@ -1,0 +1,25 @@
+.d_n_content h2 {
+    margin: 0;
+}
+
+.news_dynamic_col {
+    flex: 0 0 33.3%;
+    max-width: 100%;
+}
+
+.news_dynamic_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.creato_news_pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.creato_news_pagination * {
+    padding: 8px;
+}
